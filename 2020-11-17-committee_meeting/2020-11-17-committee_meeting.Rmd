@@ -353,14 +353,16 @@ https://rstudio-education.github.io/learner-personas/
 
 .pull-left[
 .center[
-<img src="../figs/ds4biomed/ds4biomed-cropped-square.png" alt="ds4biomed logo" width=""/>
+<img src="../figs/ds4biomed/website-spreadsheet-screenshot.PNG" alt="screenshot of the ds4biomed chapter 2 spreadsheets lesson" height="425"/>
 ]
 ]
 .pull-right[
 - Book + workshop materials: https://ds4biomed.tech/
 - Slides + papers: <a href="bit.ly/ds4biomed-gdrive">bit.ly/ds4biomed-gdrive</a>
 
-<img src="../figs/ds4biomed/website-spreadsheet-screenshot.PNG" alt="screenshot of the ds4biomed chapter 2 spreadsheets lesson" width=""/>
+.center[
+<img src="../figs/ds4biomed/ds4biomed-cropped-square.png" alt="ds4biomed logo" height="300"/>
+]
 ]
 
 ---
@@ -440,9 +442,12 @@ Raw data is important, but do not recognize why programming is important.
 - Euclidean distance
 - Ward's Clustering
 
-```{r, echo=FALSE}
+.center[
+```{r, echo=FALSE, out.height=400}
 knitr::include_graphics("../../dissertation-analysis/output/persona/dendogram_4.png")
 ```
+]
+
 
 ---
 
@@ -727,21 +732,18 @@ Pre-workshop
 ```{r, echo=FALSE}
 knitr::include_graphics("../../dissertation-analysis/output/survey/02-pre_workshop/likert-self_assessment.png")
 ```
-]
-.pull-right[
-Post-workshop
-```{r, echo=FALSE}
-knitr::include_graphics("../../dissertation-analysis/output/survey/03-post_workshop/likert-self_assessment.png")
-```
-]
 
-.pull-left[
 Delta plot
 ```{r, echo=FALSE}
 knitr::include_graphics("../../dissertation-analysis/output/survey/03-post_workshop/diff-likert-self_assessment.png")
 ```
 ]
 .pull-right[
+Post-workshop
+```{r, echo=FALSE}
+knitr::include_graphics("../../dissertation-analysis/output/survey/03-post_workshop/likert-self_assessment.png")
+```
+
 1. ...programming project, if I got stuck, I can find ways of overcoming the problem
 2. Using a programming language ... can make my analyses easier to reproduce
 3. Using a programming language ... can make me more efficient at working with data
@@ -770,21 +772,18 @@ Pre-workshop
 ```{r, echo=FALSE}
 knitr::include_graphics("../../dissertation-analysis/output/survey/02-pre_workshop/likert-learning_objectives.png")
 ```
-]
-.pull-right[
-Post-workshop
-```{r, echo=FALSE}
-knitr::include_graphics("../../dissertation-analysis/output/survey/03-post_workshop/likert-learning_objectives.png")
-```
-]
 
-.pull-left[
 Delta plot
 ```{r, echo=FALSE}
 knitr::include_graphics("../../dissertation-analysis/output/survey/03-post_workshop/diff-likert-learning_objectives.png")
 ```
 ]
 .pull-right[
+Post-workshop
+```{r, echo=FALSE}
+knitr::include_graphics("../../dissertation-analysis/output/survey/03-post_workshop/likert-learning_objectives.png")
+```
+
 1. Transform data for analysis
 2. Name the feature of a tidy/clean dataset
 3. Identify when spreadsheets are useful
@@ -797,10 +796,7 @@ knitr::include_graphics("../../dissertation-analysis/output/survey/03-post_works
 
 ---
 
-# Learning objectives not met
-
-- Construct a plot and table for exploratory data analysis
-- Calculate, interpret, and communicate an appropriate statistical analysis of the data
+# 2 Learning objectives not met
 
 ```{r, echo=FALSE}
 knitr::include_graphics("../../dissertation-analysis/output/survey/03-post_workshop/diff-likert-learning_objectives.png")
